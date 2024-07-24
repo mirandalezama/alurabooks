@@ -6,3 +6,9 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.cabeçalho{
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+}
