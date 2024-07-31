@@ -14,12 +14,12 @@
     align-items: center;
     position: relative;
 }
-.containe{
+.container{
    display: flex; 
    align-items: center;
 }
 
-.containe__imagem {
+.container__imagem {
  padding: 1em;
 }
   
