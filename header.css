@@ -18,8 +18,10 @@
    align-items: center;
 }
 
+
 .lista-menu {
     display: none;
+    position:obsolute;
 }
 
 .container__botao:checked ~ .lista-menu {
