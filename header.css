@@ -14,11 +14,15 @@
     align-items: center;
     position: relative;
 }
-.containe__imagem{
+.containe{
    display: flex; 
    align-items: center;
 }
 
+.containe__imagem {
+ padding: 1em;
+}
+  
 
 .lista-menu {
     display: none;
@@ -28,3 +32,4 @@
 .container__botao:checked ~ .lista-menu {
     display: block;
 }
+
