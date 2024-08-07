@@ -56,7 +56,6 @@ body{
 .lista-menu__titulo {
     color: var(laranja);
 }
-/* código omitido */
 
 .lista-menu__link {
     background: var(--azul-degrade);
