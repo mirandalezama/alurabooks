@@ -13,3 +13,10 @@
     margin: 1em0;
 }
 }
+
+.banner__pesquisa {
+    background-color: transparent;
+    border: 1px solid var(--branco);
+    color: var(--branco);
+    border-radius: 24px;
+}
