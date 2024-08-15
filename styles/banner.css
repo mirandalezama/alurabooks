@@ -2,6 +2,7 @@
     background: var(--azul-degrade);
     color: var(--branco);
     text-align: center;
+padding:  2.5em 2em;
 
 .banner__titulo {
     font-size: 18px;
@@ -10,7 +11,7 @@
 
 .banner__texto {
     font-weight: 500;
-    margin: 1em0;
+    margin: 1em 0;
 }
 }
 
@@ -28,7 +29,7 @@
     font-weight: 400;
     text-align: center;
     color: var(--branco);
-    background: url("../img/Lupa.svg");
+    background: url("../img/Lupa.svg") no-repeat;
     background-position: 1em;
 }
 }
