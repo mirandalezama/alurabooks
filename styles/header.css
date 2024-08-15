@@ -1,5 +1,6 @@
 @import url("styles/header.css");
 @import url("styles/banner.css");
+@import url("styles/carrossel.css");
 
 .cabeçalho__menu-hamburguer {
     width: 24px;
@@ -8,6 +9,10 @@
     background-image: url("../img/Menu.svg");
     background-repeat: no-repeat;
     background-position: center;
+}
+:root{
+    --cor-de-fundo: #EBECEE;
+    --branco:#FFFFFF;
 }
 
 
@@ -41,13 +46,13 @@
 }
 
 .lista-menu__titulo,
-.lista-menu__item{
+.lista-menu__item {
   padding: 1em;
   background-color: var(--branco);
-
 }
+
 .lista-menu__titulo {
-    color: var(laranja);
+    color: var(--laranja);
     font-weight: 700;
 }
 
