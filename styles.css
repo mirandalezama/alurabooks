@@ -16,6 +16,11 @@ body{
     font-size: 16px;
     font-weight:700;
 }
+
+h1{
+cor-de-fundo:var(--branco);
+}  
+
 .cabeçalho__menu-hamburguer {
     width: 24px;
     height: 24px;
