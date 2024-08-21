@@ -24,6 +24,7 @@ padding:  2.5em 2em;
     width: 100%;
 
 }
+}
 
 .banner__pesquisa::placeholder {
     font-family: var(--fonte-principal);
