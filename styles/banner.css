@@ -3,6 +3,7 @@
     color: var(--branco);
     text-align: center;
 padding:  2.5em 2em;
+}
 
 .banner__titulo {
     font-size: 18px;
@@ -14,7 +15,6 @@ padding:  2.5em 2em;
     margin: 1em 0;
 }
 
-
 .banner__pesquisa {
     background-color: transparent;
     border: 1px solid var(--branco);
@@ -22,8 +22,6 @@ padding:  2.5em 2em;
     border-radius: 24px;
     padding: 1em;
     width: 100%;
-
-}
 }
 
 .banner__pesquisa::placeholder {
@@ -32,6 +30,6 @@ padding:  2.5em 2em;
     font-weight: 400;
     text-align: center;
     color: var(--branco);
-    background: url("../img/Lupa.svg") no-repeat;
+    background: url("../img/lupa.svg") no-repeat;
     background-position: 1em;
 }
