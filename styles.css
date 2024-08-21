@@ -33,6 +33,7 @@ body{
     align-items: center;
     position: relative;
 }
+
 .container{
    display: flex; 
    align-items: center;
@@ -115,8 +116,8 @@ body{
 .lista-menu__item{
   padding: 1em;
   background-color: var(--branco);
-
 }
+
 .lista-menu__titulo {
     color: var(laranja);
 }
