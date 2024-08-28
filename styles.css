@@ -119,7 +119,7 @@ body{
 }
 
 .lista-menu__titulo {
-    color: var(laranja);
+    color: var(--azul);
 }
 
 .lista-menu__link {
