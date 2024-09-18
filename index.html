@@ -37,6 +37,7 @@
          <li class="lista-menu_item">
             <a href="#" class="lista-menu_link">Design & UX</a>
          </li>
+         <
 
         <img src="img/Logo.svg" alt="Logo da AluraBooks">
         <a href="#"><img src="img/Favoritos.svg" alt="meus favoritos" class="container__imagem"></a>
@@ -78,6 +79,16 @@
 </section>
 
    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    
-  </body>
-  </html>
+    <script>
+   const swiper = new Swiper(".swiper", {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination: {
+        el: ".swiper-pagination",
+        type: "bullets",
+      },
+    });
+  </script>
+</body>
+
+</html>
