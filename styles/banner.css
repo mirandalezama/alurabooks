@@ -6,8 +6,8 @@
 }
 
 .banner__titulo {
-    font-size: 18px;
-    font-weight: 700;
+    font-weight: 500;
+    margin: 1em 0;
 }
 
 .banner__texto {
