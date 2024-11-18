@@ -122,7 +122,7 @@ display: none;
 .opções__botão:checked ~ .opções__rotulo > .opções__item{
     background: var(--azul-degrade)
     color: var(--branco);
-}
+
 .opções__item{
     padding: 2em 1 em;
 }
@@ -131,7 +131,10 @@ display: none;
     background: var(--azul-degrade)
 }
 
-.lista-menu_item:hover
+.lista-menu_item:hover > .lista-menu__link{
+    -webkit-text-fill-color: var(--branco);
+    text-decoration:none;
+}
 
 @media screen and (min-width: 1728px) {
 .container__link {
@@ -140,6 +143,7 @@ display: none;
     text-decoration: none;
     color: var(--preto);
     padding-right: 30px;
+}
 }
 
 .opções {

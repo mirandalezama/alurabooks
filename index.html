@@ -49,35 +49,39 @@
         </label>
         
         <ul  class="lista-menu"</ul>
-          <a href="#" class="lista-menu__link">Front-end</a>
-        </li>
-        <li class="lista-menu__item">
-          <a href="#" class="lista-menu__link">Infraestrutura</a>
-        </li>
-        <li class="lista-menu__item">
-          <a href="#" class="lista-menu__link">Business</a>
-        </li>
-        <li class="lista-menu__item">
-          <a href="#" class="lista-menu__link">Design & UX</a>
-        </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Programação</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Front-end</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Infraestrutura</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Business</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Design & UX</a>
+          </li>
+        </ul>
+        <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
+        <li class="opções__item"><a href="#" class="opções__link">Minha estante</a></li>
       </ul>
-      <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
-      <li class="opções__item"><a href="#" class="opções__link">Minha estante</a></li>
-    </ul>
 
-  </div>
-  <div class="container">
-    <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos"
-        class="container__imagem container__imagem-transparente"></a>
-    <a href="#" class="container__link">
-      <img src="img/Compras.svg" alt="Carrinhos de compras" class="container__imagem">
-      <p class="container__texto">Minha sacola</p>
-    </a>
-    <a href="#" class="container__link">
-      <img src="img/Usuario.png" alt="Meu perfil" class="container__imagem">
-      <p class="container__texto">Meu perfil</p>
-    </a>
-  </div>
+    </div>
+    <div class="container">
+      <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos"
+          class="container__imagem container__imagem-transparente"></a>
+      <a href="#" class="container__link">
+        <img src="img/Compras.svg" alt="Carrinhos de compras" class="container__imagem">
+        <p class="container__texto">Minha sacola</p>
+      </a>
+      <a href="#" class="container__link">
+        <img src="img/Usuario.png" alt="Meu perfil" class="container__imagem">
+        <p class="container__texto">Meu perfil</p>
+      </a>
+    </div>
 </header>
 <section class="banner">
   <h2 class="banner__titulo">Já sabe por onde começar?</h2>
@@ -87,23 +91,22 @@
 
 <section class="carrossel">
   <h2 class="carrossel__titulo">Novos lançamentos</h2>
-  
-  <div class="swiper">
-     
-    <div class="swiper-pagination"></div>
-    
-    <div class="swiper-wrapper">
+
+  <div class="carrossel__container">
+    <div class="swiper">
+      <div class="swiper-pagination"></div>
+      <div class="swiper-wrapper">
+      
     
      <div class="swiper-slide"><img src="img/ApacheKafka.png" alt="Livro sobre Apache Kafka e spring boot da alura books"></div>
      <div class="swiper-slide"><img src="img/Liderança.png" alt="Livro sobre liderança em design design da alura books"></div>
      <div class="swiper-slide"><img src="img/Javascript.png" alt="Livro sobre javascript assertivo da alura books"></div>
-     <div class="swiper-slide"><img src="img/Guia Front-end.pngg" alt="Livro Guia front end"></div>
+     <div class="swiper-slide"><img src="img/Guia Front-end.png" alt="Livro Guia front end"></div>
      <div class="swiper-slide"><img src="img/Portugol.png" alt="Livro sobre portugol"></div>
      <div class="swiper-slide"><img src="img/Acessibilidade.svg" alt="livro sobre acessibilidade"></div>
-   <!-- If we need pagination -->
+    </div>
    <div class="swiper-pagination"></div>
- 
-   <!-- If we need navigation buttons -->
+   
    <div class="swiper-button-prev"></div>
    <div class="swiper-button-next"></div>
 
@@ -138,12 +141,12 @@
 <section class=”carrossel”>
   <h2 class="carrossel__titulo">Mais vendidos</h2>
   <div class="swiper">
-    <!-- Additional required wrapper -->
-    <!-- If we need pagination -->
+    
+
     <div class="swiper-pagination"></div>
 
     <div class="swiper-wrapper">
-      <!-- Slides -->
+    
       <div class="swiper-slide"><img src="img/ApacheKafka.png"
           alt="Livro sobre apache kafka e spring boot da alura books"></div>
       <div class="swiper-slide"><img src="img/Liderança.png" alt="Livro sobre liderança em design da alura books">
@@ -155,15 +158,14 @@
       <div class="swiper-slide"><img src="img/Acessibilidade.svg" alt="livro sobre acessibilidade"></div>
     </div>
 
-    <!-- If we need navigation buttons -->
-      <!-- If we need navigation buttons -->
+
       <div class="swiper-button-prev"></div>
       <div class="swiper-button-next"></div>
     </div>
   <div class="card">
-    <!-- 1º linha -->
+  
     <div class="card__descrição">
-      <!-- 1º coluna -->
+    
       <div class="descrição">
         <img src="img/Estrelinhas.svg" alt="Avaliação 5 estrelas">
         <h3 class="descrição__titulo">Autora do Mês</h3>
@@ -171,21 +173,21 @@
         <p class="descrição__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End.
         </p>
       </div>
-      <!-- 2º coluna -->
+      
       <img src="img/Escritora.svg" class="descrição__imagem">
     </div>
-      <!-- 2º coluna -->
+      
       <img src="img/Perfil-escritora 1.png" class="descrição__imagem">
     </div>
 
-    <!-- 2º linha -->
-    <     <div class="card__botões">
-      <!-- 1º coluna -->
+    
+     <div class="card__botões">
+    
       <ul class="botões">
         <li class="botões__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
         <li class="botões__item"><img src="img/Compras.svg" alt="Adicionar no carrinho de compras"></li>
       </ul>
-      <!-- 2º coluna -->
+
       <a href="#" class="botões__ancora">Saiba mais</a>
     </div>
   </div>
