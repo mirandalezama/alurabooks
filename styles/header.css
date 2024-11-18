@@ -135,5 +135,7 @@ display: none;
     display: block;
 }
 
-}
 
+.container__botao: checked ~ .container__rotulo> . .cabeçalho__menu-hamburguer{
+    background-image: url( "../img/Menu Aberto.png");
+}
