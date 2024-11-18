@@ -4,19 +4,8 @@
 @import url("styles/topicos.css");
 @import url("styles/contato.css");
 @import url("styles/rodapé.css");
-:root{
-    --cor-de-fundo: #EBECEE;
-    --branco: #FFFFFF;
-    --laranja: #EB9B00; 
-    --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
-    --fonte-principal: "Poppins";
-    --azul: #002F52;
-    --fonte-secundario: "Josefin Sans";
-    --preto: #000000;
-    --cinza: #474646; 
-    --cinza-claro: #858585;
-    }
-    body {
+
+:root {
     --cor-de-fundo: #EBECEE;
     --branco: #FFFFFF;
     --laranja: #EB9B00;
@@ -29,13 +18,11 @@
     --cinza-claro: #858585;
 }
 
-.cabeçalho__menu-hamburguer {
-    width: 24px;
-    height: 24px;
-    display: inline-block;
-    background-image: url("../img/Menu.svg");
-    background-repeat: no-repeat;
-    background-position: center;
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .cabeçalho {
@@ -47,12 +34,25 @@
 }
 
 .container {
-    display: flex; 
+    display: flex;
     align-items: center;
 }
 
 .container__imagem {
     padding: 1em;
+}
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+    border-radius: 0 0 20px 20px;
+    background-color: var(--branco);
+}
+
+.container__botao:checked ~ .lista-menu {
+    display: block;
 }
 
 .lista-menu__titulo,
@@ -65,7 +65,6 @@
     color: var(--laranja);
 }
 
-
 .lista-menu__link {
     background: var(--azul-degrade);
     -webkit-background-clip: text;
@@ -74,7 +73,6 @@
     text-transform: uppercase;
 }
 
-@import url("styles/header.css");
 .cabeçalho__menu-hamburguer {
     width: 24px;
     height: 24px;
@@ -83,42 +81,3 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-
-.cabeçalho{
-    background-color: var(--branco);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-}
-.container{
-   display: flex; 
-   align-items: center;
-}
-
-.container__imagem {
- padding: 1em;
-}
-
-.container__botao:checked ~.lista-menu {
-    display: block;
-}
-
-.lista-menu__titulo,
-.lista-menu__item{
-  padding: 1em;
-  background-color: var(--branco);
-}
-
-.lista-menu__titulo {
-    color: var(--laranja);
-}
-
-.lista-menu__link {
-    background: var(--azul-degrade);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-transform: uppercase;
-}
-
