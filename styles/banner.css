@@ -30,9 +30,11 @@
     font-weight: 400;
     text-align: center;
     color: var(--branco);
-    background: url("../img/Lupa.svg") no-repeat;
-    background-position: 1em;
+    background: url("../img/lupa.svg") no-repeat;
+    background-position: 10px center;
+    background-size: 16px 16px; 
 }
+
 @media screen and (min-width: 1024px) {
     .banner__titulo {
         font-size: 36px;
@@ -43,6 +45,6 @@
     }
 
     .banner__pesquisa::placeholder {
-        background-position: 7em;
+        background-position: 10px center;
     }
 }
