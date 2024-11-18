@@ -11,7 +11,6 @@ hr {
     display: none;
 }
 
-
 @media screen and (min-width: 1024px) {
     .rodapé {
         display: flex;
@@ -41,5 +40,6 @@ hr {
 
     .rodapé__titulo {
         font-size: 24px;
+        color: var(--preto); 
     }
 }
